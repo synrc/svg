@@ -39,7 +39,7 @@
 -record(desc, {?ELEMENT_BASE(element_desc), ?SVG_CORE}).
 -record(ellipse, {?ELEMENT_BASE(element_ellipse), cx, cy, rx, ry, transform, externalResourcesRequired, ?SVG_CONDITIONAL_PROCESSING, ?SVG_CORE, ?SVG_GRAPHICAL_EVENT, ?SVG_PRESENTATION}).
 -record(feBlend, {?ELEMENT_BASE(element_feblend), in, in2, mode, ?SVG_CORE, ?SVG_FILTER_PRIMITIVE, ?SVG_PRESENTATION}).
--record(feColorMatrix, {?ELEMENT_BASE(element_fecolormatrix), in, type, values, ?SVG_CORE, ?SVG_FILTER_PRIMITIVE, ?SVG_PRESENTATION}).
+-record(feColorMatrix, {?ELEMENT_BASE(element_fecolormatrix), in, type, mode, values, ?SVG_CORE, ?SVG_FILTER_PRIMITIVE, ?SVG_PRESENTATION}).
 -record(feComponentTransfer, {?ELEMENT_BASE(element_fecomponenttransfer), in, ?SVG_CORE, ?SVG_FILTER_PRIMITIVE, ?SVG_PRESENTATION}).
 -record(feComposite, {?ELEMENT_BASE(element_fecomposite), in, in2, operator, k1, k2, k3, k4, ?SVG_CORE, ?SVG_FILTER_PRIMITIVE, ?SVG_PRESENTATION}).
 -record(feConvolveMatrix, {?ELEMENT_BASE(element_feconvolvematrix), in, order, kernelMatrix, divisor, bias, targetX, targetY, edgeMode, kernelUnitLength, preserveAlpha, ?SVG_CORE, ?SVG_FILTER_PRIMITIVE, ?SVG_PRESENTATION}).
