@@ -12,7 +12,8 @@ render_element(Record) ->
 			{<<"style">>, Record#feColorMatrix.style},
 			{<<"in">>, Record#feColorMatrix.in},
 			{<<"type">>, Record#feColorMatrix.type},
-			{<<"values">>, Record#feColorMatrix.values}
+			{<<"values">>, Record#feColorMatrix.values},
+	        {<<"mode">>, Record#feColorMatrix.mode}
 		],
 		svg_core(Record),
 		svg_filter_primitive(Record),
