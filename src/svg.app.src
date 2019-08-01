@@ -1,0 +1,9 @@
+{application, svg, [
+    {description,  "SVG Elements"},
+    {vsn,          "4.7.4"},
+    {applications, [kernel, stdlib]},
+    {modules, []},
+    {registered,   []},
+    {mod, { svg, []}},
+    {env, []}
+]}.

@@ -1,6 +1,7 @@
 -module(element_xlink).
 -author('Konstantin Zakablukovsky').
 -include("svg.hrl").
+-include_lib("nitro/include/event.hrl").
 -compile(export_all).
 
 render_element(Record) ->
